@@ -1,0 +1,77 @@
+:root {
+  --primary-color: #01161E;   /* Colore primario */
+  --secondary-color: #124559; /* Colore secondario */
+  --tertiary-color: #598392;  /* Colore terziario */
+  --words-color: #EFF6E0;
+}
+body{
+  background-color: var(--tertiary-color);
+
+  overflow: auto;
+}
+/*HEADER CSS*/
+.navbar {
+  background-color: var(--primary-color);
+  display: flex;
+  padding: 15px;
+  
+}
+
+.custom-text{
+  font-size: 1.2rem;
+  color: var(--words-color) ;
+}
+.custom-link{
+  margin-left: 4px;
+  margin-right: 4px;
+  font-size: 1.3rem;
+  color: var(--words-color) ;
+}
+.custom-link:active{
+  color: inherit;
+}
+.custom-link:hover{
+  color: #eff6e063;
+}
+
+
+.custum_button-general {
+  background-color: var(--secondary-color);
+  border: var(--tertiary-color);
+  color: var(--words-color);
+
+}
+
+.custum_button-general:hover {
+  background-color: var(--primary-color);
+  color: var(--words-color);
+
+}
+
+.custum_button-general:disabled {
+  background-color: var(--primary-color);
+  color: var(--words-color);
+
+}
+
+.custum_button-general:focus {
+  background-color: var(--primary-color);
+
+}
+
+
+.leaderboard-card {
+  border: solid black;
+  background-color: var(--words-color);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4); 
+
+}
+
+.card-hover {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card-hover:hover {
+  transform: translateY(-15px); 
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4); 
+}

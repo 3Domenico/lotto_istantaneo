@@ -1,0 +1,77 @@
+.custum_button-outline {
+    background-color: transparent;
+    border: solid 1px var(--secondary-color);
+    color: var(--words-color);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+  
+  }
+  
+  .custum_button-outline:hover {
+    background-color: var(--primary-color);
+    color: var(--words-color);
+    box-shadow:0;
+    
+
+  
+  }
+ .card-custom{
+    height: 250px;
+    border: 0;
+    background-color: #496b78;
+    
+   
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4); 
+
+    
+ }
+ .custom-text-dashboard{
+    font-size: 2rem;
+    color: var(--words-color) ;
+
+ }
+
+ .custom-modal-AllNumbers .modal-content {
+  background-color: #72F77D; /* Cambia colore qui */
+  color: black;
+  border-radius: 30px;
+  border: solid black;
+  
+}
+.custom-modal-AllNumbers .modal-header{
+  font-size: 4;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 30px 30px 0px 0px;
+  border-bottom: solid black;
+  background-color: #499f50;
+}
+.custom-modal-noNumbers .modal-content {
+  background-color: #f77272; /* Cambia colore qui */
+  color: black;
+  border-radius: 30px;
+  border: solid black;
+  
+}
+.custom-modal-noNumbers .modal-header{
+  font-size: 4;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 30px 30px 0px 0px;
+  border-bottom: solid black;
+  background-color: #9a4747;
+}
+.custom-modal-someNumbers .modal-content {
+  background-color: #f7d172; /* Cambia colore qui */
+  color: black;
+  border-radius: 30px;
+  border: solid black;
+  
+}
+.custom-modal-someNumbers .modal-header{
+  font-size: 4;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 30px 30px 0px 0px;
+  border-bottom: solid black;
+  background-color: #af9451;
+}

@@ -1,0 +1,55 @@
+    .custom-login {
+        margin: auto;
+        height: 70%;
+        padding: 50px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+
+        background-color: var(--secondary-color);
+        border-radius: 30px;
+        box-shadow: #01161E;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .custom-text-login {
+        font-size: 2.5rem;
+        align-items: center;
+        font-weight: bold;
+        color: var(--words-color);
+    }
+
+    .custom-form {
+        width: 90%;
+    }
+
+    .custum_button {
+        background-color: var(--tertiary-color);
+        border: var(--tertiary-color);
+        color: var(--words-color);
+
+    }
+
+    .custum_button:hover {
+        background-color: var(--primary-color);
+        color: var(--words-color);
+
+    }
+
+ 
+
+    .custum_button-log {
+        font-size: 1.1rem;
+        background-color: var(--tertiary-color);
+        border: var(--tertiary-color);
+        color: var(--words-color);
+
+    }
+
+    .custum_button-log:hover {
+        background-color: var(--secondary-color);
+        color: var(--words-color);
+
+    }
